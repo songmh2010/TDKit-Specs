@@ -34,11 +34,11 @@ TODO: Add long description of the pod here.
 
   s.dependency 'SnapKit'
   s.dependency 'Kingfisher'
-  s.dependency 'ModuleC','0.1.0'
+  s.dependency 'ModuleC'
   
-  # s.resource_bundles = {
-  #   'ModuleA' => ['ModuleA/Assets/*.png']
-  # }
+   #s.resource_bundles = {
+   #  'ModuleA' => ['ModuleA/ModuleA/Assets/**/*']
+   #}
 
   s.frameworks = 'UIKit', 'MapKit'
   # s.public_header_files = 'Pod/Classes/**/*.h'
