@@ -36,8 +36,8 @@ TODO: Add long description of the pod here.
   s.dependency 'SnapKit'
   s.dependency 'Kingfisher'
   s.dependency 'ModuleC'
-  
-  s.resource_bundles = {
+
+  s.resource_bundle = {
     'ModuleB' => ['ModuleB/ModuleB/Assets/**/*']
   }
 
