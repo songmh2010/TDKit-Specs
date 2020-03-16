@@ -36,9 +36,9 @@ TODO: Add long description of the pod here.
   s.dependency 'SnapKit'
   s.dependency 'Kingfisher'
   s.dependency 'ModuleC'
-
+  
   s.resource_bundles = {
-    'ModuleB' => ['ModuleB/ModuleB/Assets/*']
+    'ModuleB' => ['ModuleB/ModuleB/Assets/*','ModuleB/ModuleB/Classes/**/*.{storyboard,xib}']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
