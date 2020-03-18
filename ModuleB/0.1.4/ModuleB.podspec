@@ -36,6 +36,7 @@ TODO: Add long description of the pod here.
   s.dependency 'SnapKit'
   s.dependency 'Kingfisher'
   s.dependency 'ModuleC'
+  s.dependency 'CTMediator'
   
   s.resource_bundles = {
     'ModuleB' => ['ModuleB/ModuleB/Assets/*','ModuleB/ModuleB/Classes/**/*.{storyboard,xib}']
