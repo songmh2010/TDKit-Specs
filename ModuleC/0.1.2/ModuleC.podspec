@@ -37,7 +37,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'ModuleC/ModuleC/Classes/**/*'
   
   s.resource_bundles = {
-     'ModuleC' => ['ModuleC/ModuleC/Assets/*.xib']
+     'ModuleC' => ['ModuleC/ModuleC/Assets/*']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
