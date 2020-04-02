@@ -29,7 +29,10 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  
   s.swift_versions = '5.0'
+
+  s.dependency 'CTMediator'
 
   s.source_files = 'ModuleC/ModuleC/Classes/**/*'
   
